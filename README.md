@@ -10,7 +10,7 @@ The following pre-requisites are required before the first day of class.
 
 ![][Div1]
 
-Copyright - All Rights Reserved, Defensive Origins LLC
+Copyright - All Rights Reserved, Antisyphon Training LLC
 
 
 
