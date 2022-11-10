@@ -6,7 +6,7 @@ Students are required to have an upgraded Azure account.
 * It is not possible to operate the course lab on an Azure account that has not been upgraded.
 * A valid credit card is required to upgrade an Azure free-tier account to a paid account.
 * Creating an Azure account is free.
-* Azure components operated in the course cost approximately USD $10/day
+* Azure components operated in the course cost approximately USD $20/day
 
 ## Azure account
 There are three options for using an Azure account for the Antisyphon Training Azure Lab:
@@ -19,13 +19,10 @@ Generally speaking, we recommend using option 1 unless your organization offers 
 **Option 1: New free Azure Account**
 <blockquote>
 
-Sign up for an Azure account and claim the $200 free credit for new accounts.
 
 https://azure.microsoft.com/en-us/free/
 
 * After your free account is provisioned, upgrade the free account to a paid account.  
-* At the time of writing, Azure offered $200 in free credits for new accounts, including free accounts that are upgraded.  
-
 
 <Details><summary> <b>Step 1: Create Azure Account</b></summary>
 
@@ -110,8 +107,8 @@ This will kickoff the process similar to the billing components of Step 1 in Opt
 If your organization already operated a corporate Azure account, you may required access to deploy the lab environment within your corporate Azure subscriptions.
 Request access to a corporate (your company, business, from your IT operations department, help desk, CIO, CISO, CTO) subscription for this class. The subscription will require the following:
 
-* Three virtual machines, 2 CPUs each, 3.5 GB RAM each
-* Three public IPs
+* Four virtual machines, 2 CPUs each, 3.5 GB RAM each
+* Four public IPs
 
 
 </blockquote>
@@ -119,7 +116,7 @@ Request access to a corporate (your company, business, from your IT operations d
 
 ![div2]
 
-Copyright - All Rights Reserved, Antisyphon Training LLC
+
 
   [Div1]: ../images/div1.png
   [Div2]: ../images/div2.png

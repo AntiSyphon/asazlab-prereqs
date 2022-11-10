@@ -1,13 +1,11 @@
 # Pre-Requisite : Deploy course Lab Environment (ASAZLab.com)
 
-![][Div2]
 
 Students are required to deploy the ASAZLab in their Azure subscription.
 
 ## Important Information
 * An "upgraded" or "Pay-as-you-go" Azure account is required to deploy the lab environment.  See other pre-requisite instruction if you do not yet have an Azure account.
-* The cost of the lab environment is approximately $10/day.
-* New Azure accounts are provided $200 in free credit that is credited within the first couple of days and can be used (automatically) for the ASAZLab deployment.  
+* The cost of the lab environment is approximately $20/day for A2 sized VMs.
 * Remember after the end of class delete your lab environment to ensure you have no unexpected fees from Azure.
 * The VM size selection will default to B2s, A2,or A2_V2 depending on region selection and availability.  Generally B2s is least expensive if available. Any of these options are acceptable for the lab environment.
 
@@ -27,7 +25,7 @@ Deploy the Antisyhon Training AZLab from ASAZLab.com:
 Or, you can view the operations in more detail on GitHub:
 [ASAZLab-Github][ASAZLab-Github]
 
-| ![](../images/prls2-2a.jpg) |
+| ![](../images/prls2-2a.jpg)|
 |----------------------------|
 
 
@@ -38,10 +36,10 @@ And, deploy via the README with one click!!
 | ![](../images/prls2-2b.jpg) |
 |----------------------------|
 
-Next up you will choose your subscription, resource group, and log analytics workspace. For easy deployments and cleanup, a general recommendation is to create a new resource group and log analytics workspace. 
+Next up you will choose your subscription, resource group, and region.  
 
 
-| ![](../images/prls2-3-2.png) |
+| ![](../images/prls2-3.jpg) |
 |----------------------------|
 
 The VM size selection will default to B2s, A2,or A2_V2 depending on region selection and availability.  Generally B2s is least expensive if available. Any of these options are acceptable for the lab environment.
@@ -49,7 +47,7 @@ The VM size selection will default to B2s, A2,or A2_V2 depending on region selec
 Feel free to modify the size of your VMs should you so choose. The default selections made for this course have been tested thoroughly and represent a balance of performance and cost.
 
 
-| ![](../images/prls2-4.jpg) |
+|![](../images/prls2-4.jpg)|
 |----------------------------|
 
 The next step in your custom deployment is to confirm the public IP space. Feel free to limit this range more specifically to your known and trusted addresses. 
@@ -88,23 +86,24 @@ Click through each resource to gather the assigned public IP addresses.
 | ![](../images/prls4-2.jpg) |
 |----------------------------|
 
-As you gather them up, document them! The addresses in the list below do not represent your IP addresses.
-
-* DC Public IP: 13.67.200.257
-* Nux Public IP: 40.86.95.257
-* WS Public IP: 13.86.95.257
+As you gather them up, document them!   Be sure you have the following IP addresses documented to be ready for class.
+```
+DC01 (pip-DC01) Public IP:
+SRV01 (pip-SRV01) Public IP:
+WS05 (pip-WS05) Public IP: 
+Nux (pip-Nux01) Public IP: 
+```
 
 
 </blockquote>
 </details>
 
 
-![div2]
+---
 
 Copyright - All Rights Reserved, Antisyhon Training LLC
 
-  [Div1]: ../images/div1.png
-  [Div2]: ../images/div2.png
+
   [ASAZLab]: https://www.ASAZLab.com
   [ASAZLab-Github]: https://github.com/AntiSyphon/asazlab
   [WWHF]: https://wildwesthackinfest.com/
