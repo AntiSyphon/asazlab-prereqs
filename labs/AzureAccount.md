@@ -1,14 +1,26 @@
 # APT Pre-Requisite : Azure Account (Upgraded)
 
+<!-- Start Document Outline -->
+
+* [Important notes:](#important-notes)
+* [Azure account](#azure-account)
+	* [Option 1: New free Azure Account](#option-1-new-free-azure-account)
+		* [Step 1: Create Azure Account](#step-1-create-azure-account)
+		* [Step 2: Confirm Subscription](#step-2-confirm-subscription)
+	* [Option 2: Upgrade an Existing Free Azure account](#option-2-upgrade-an-existing-free-azure-account)
+	* [Option 3: Use An Existing Azure Corporate Account](#option-3-use-an-existing-azure-corporate-account)
+
+<!-- End Document Outline -->
+
 Students are required to have an upgraded Azure account.  
 
-## Important notes:
+# Important notes:
 * It is not possible to operate the course lab on an Azure account that has not been upgraded.
 * A valid credit card is required to upgrade an Azure free-tier account to a paid account.
 * Creating an Azure account is free.
 * Azure components operated in the course cost approximately USD $20/day
 
-## Azure account
+# Azure account
 There are three options for using an Azure account for the Antisyphon Training Azure Lab:
 * Create a new Azure Account
 * Use an existing Azure Account (and upgrade if necessary)
@@ -16,15 +28,14 @@ There are three options for using an Azure account for the Antisyphon Training A
 
 Generally speaking, we recommend using option 1 unless your organization offers to pay for the lab portions of this course on an existing enterprise Azure account.  If you are already familiar with Azure and have an existing account and Pay-As-You-Go subscription, you may use your existing account.
 
-**Option 1: New free Azure Account**
-<blockquote>
+## Option 1: New free Azure Account
 
 
 https://azure.microsoft.com/en-us/free/
 
 * After your free account is provisioned, upgrade the free account to a paid account.  
 
-<Details><summary> <b>Step 1: Create Azure Account</b></summary>
+### Step 1: Create Azure Account
 
 Go to https://azure.microsoft.com/en-us/free/ and click on "Pay as you go"
 
@@ -63,10 +74,8 @@ After the process is completed, the screen will refresh and you will be provided
 | ![](../images/az7.png) |
 |------------|
 
-</details>
 
-<Details>
-  <summary> <b>Step 2: Confirm Subscription</b></summary>
+### Step 2: Confirm Subscription
 
 Continuing from the previous step, click on "Go To the Azure Portal" or goto https://portal.azure.com.
 
@@ -87,23 +96,21 @@ This will show a new pane in the portal.  Ensure that the "Plan" associated with
 
 You are ready to move on to the next step of the pre-requisites: Deploying the lab environment.
 
-</details>
 
-</blockquote>
 
-**Option 2: Update an Existing Azure account**
-<blockquote>
+## Option 2: Upgrade an Existing Free Azure account
+
 If you have an existing Azure Account, it may be used so long as it is upgraded to a "Pay-As-You-Go" account.  If it has not been upgraded, from the Azure portal search "Subscriptions" and open the Subscriptions pane.  Then open the details for your existing subscription.  On the subscription you would like to use, press the option to "Upgrade to keep going with your account". 
 
 | ![](../images/azc-1.png) |
 |--------------------------|
 
 This will kickoff the process similar to the billing components of Step 1 in Option.
-</blockquote>
 
 
-**Option 3: Existing Azure Corporate Account**
-<blockquote>
+
+## Option 3: Use An Existing Azure Corporate Account
+
 If your organization already operated a corporate Azure account, you may required access to deploy the lab environment within your corporate Azure subscriptions.
 Request access to a corporate (your company, business, from your IT operations department, help desk, CIO, CISO, CTO) subscription for this class. The subscription will require the following:
 
@@ -111,7 +118,6 @@ Request access to a corporate (your company, business, from your IT operations d
 * Four public IPs
 
 
-</blockquote>
 
 
 ![div2]
