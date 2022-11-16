@@ -39,40 +39,40 @@ https://azure.microsoft.com/en-us/free/
 
 Go to https://azure.microsoft.com/en-us/free/ and click on "Pay as you go"
 
-| ![](../images/az1.png) | 
-|------------|
+ ![](../images/az1.png) 
+
 
 Next, click on "Get Started"
 
-| ![](../images/az2.png) |
-|------------|
+ ![](../images/az2.png) 
+
 
 You will next be required to login with a Microsoft Online account.  If you do not already have one, click on "Create Account", otherwise login with our Microsoft Account.  
 
-| ![](../images/az3.png) |
-|------------|
+ ![](../images/az3.png) 
+
 
 After Logging in, you will need to enter your contact information. 
 
-| ![](../images/az4.png) |
-|------------|
+ ![](../images/az4.png) 
+
 
 After validating identity with either a TXT or phone all, press NEXT and enter Paying Information.
 
-| ![](../images/az5.png) |
-|------------|
+ ![](../images/az5.png) 
+
 
 After entering Billing Information, select a technical support plan.  Generally speaking, we suggest "No technical support.
 
-| ![](../images/az6.png) |
-|------------|
+ ![](../images/az6.png) 
+
 
 Pressing "Sign up" will finish the registration process.
 
 After the process is completed, the screen will refresh and you will be provided a link to "Go To the Azure portal".  This can also be accomplished by accessing https://portal.azure.com. 
 
-| ![](../images/az7.png) |
-|------------|
+ ![](../images/az7.png) 
+
 
 
 ### Step 2: Confirm Subscription
@@ -81,18 +81,17 @@ Continuing from the previous step, click on "Go To the Azure Portal" or goto htt
 
 From the Azure Portal, click on "Microsoft Azure" in the upper left corner, then select "Subscriptions"
 
-| ![](../images/az8.png) |
-|------------|
+ ![](../images/az8.png) 
+
 
 You should only see one subscription.  Click on the name of the subscription.
 
-| ![](../images/az9.png) |
-|------------|
+ ![](../images/az9.png) 
 
 This will show a new pane in the portal.  Ensure that the "Plan" associated with the Subscription does not say "Free"
 
-| ![](../images/az10.png) |
-|------------|
+ ![](../images/az10.png) 
+
 
 You are ready to move on to the next step of the pre-requisites: Deploying the lab environment.
 
@@ -102,8 +101,8 @@ You are ready to move on to the next step of the pre-requisites: Deploying the l
 
 If you have an existing Azure Account, it may be used so long as it is upgraded to a "Pay-As-You-Go" account.  If it has not been upgraded, from the Azure portal search "Subscriptions" and open the Subscriptions pane.  Then open the details for your existing subscription.  On the subscription you would like to use, press the option to "Upgrade to keep going with your account". 
 
-| ![](../images/azc-1.png) |
-|--------------------------|
+ ![](../images/azc-1.png) 
+
 
 This will kickoff the process similar to the billing components of Step 1 in Option.
 
