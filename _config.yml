@@ -4,7 +4,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-sitemap
 titles_from_headings:
-  enabled:     true
+  enabled:     false
   strip_title: true
   collections: false
 twitter_username: BHInfoSecurity
